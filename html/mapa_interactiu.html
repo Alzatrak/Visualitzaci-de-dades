@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a70b2ef84a125a80aff00d00a46dfd28 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a70b2ef84a125a80aff00d00a46dfd28" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a70b2ef84a125a80aff00d00a46dfd28 = L.map(
+                "map_a70b2ef84a125a80aff00d00a46dfd28",
+                {
+                    center: [41.80068831111112, 1.786122622222222],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_641b037575f4b16daf5177a6cfdc9297 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_641b037575f4b16daf5177a6cfdc9297.addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+            var marker_d28cd19d88b29854fecbc758f2106480 = L.marker(
+                [41.2586889, 1.6412138],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_7993f3d9e08fc49b4d03039bab63623f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_634ae6d93f1faa7f05853bcadbad3ac7 = $(`<div id="html_634ae6d93f1faa7f05853bcadbad3ac7" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Foix (Castellet i la Gornal)<br><strong>Nivell hm3:</strong> 2.02<br><strong>Percentatge:</strong> 54.1<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_7993f3d9e08fc49b4d03039bab63623f.setContent(html_634ae6d93f1faa7f05853bcadbad3ac7);
+            
+        
+
+        marker_d28cd19d88b29854fecbc758f2106480.bindPopup(popup_7993f3d9e08fc49b4d03039bab63623f)
+        ;
+
+        
+    
+    
+            var marker_3806f8a1ee28a19a9fd7318b30845a9f = L.marker(
+                [42.1488357, 1.8544642],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_3418756e220c98d09bfcffc4ff70049b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c50a36639034ba9fd0221e87f8e9237 = $(`<div id="html_5c50a36639034ba9fd0221e87f8e9237" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de la Baells (Cercs)<br><strong>Nivell hm3:</strong> 24.59<br><strong>Percentatge:</strong> 22.5<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_3418756e220c98d09bfcffc4ff70049b.setContent(html_5c50a36639034ba9fd0221e87f8e9237);
+            
+        
+
+        marker_3806f8a1ee28a19a9fd7318b30845a9f.bindPopup(popup_3418756e220c98d09bfcffc4ff70049b)
+        ;
+
+        
+    
+    
+            var marker_d8cd02deaff2eb31b4c493f95ff93122 = L.marker(
+                [41.9764571, 2.3690188],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_965c848f78a3c6255583ba7a922a5553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef9ac5a61e9be3b9d3e6d42c038c4c69 = $(`<div id="html_ef9ac5a61e9be3b9d3e6d42c038c4c69" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Sau (Vilanova de Sau)<br><strong>Nivell hm3:</strong> 14.42<br><strong>Percentatge:</strong> 8.7<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_965c848f78a3c6255583ba7a922a5553.setContent(html_ef9ac5a61e9be3b9d3e6d42c038c4c69);
+            
+        
+
+        marker_d8cd02deaff2eb31b4c493f95ff93122.bindPopup(popup_965c848f78a3c6255583ba7a922a5553)
+        ;
+
+        
+    
+    
+            var marker_f3aab677f7f34265aa39998748b0a62f = L.marker(
+                [42.3461727, 2.7714114],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_08bd06feac831bd415fc5430af3a07f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_861c3b95481b86facbd894cd2602d500 = $(`<div id="html_861c3b95481b86facbd894cd2602d500" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Darnius Boadella (Darnius)<br><strong>Nivell hm3:</strong> 8.06<br><strong>Percentatge:</strong> 13.2<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_08bd06feac831bd415fc5430af3a07f5.setContent(html_861c3b95481b86facbd894cd2602d500);
+            
+        
+
+        marker_f3aab677f7f34265aa39998748b0a62f.bindPopup(popup_08bd06feac831bd415fc5430af3a07f5)
+        ;
+
+        
+    
+    
+            var marker_00e86368b06db56c9a1c7f1124004ead = L.marker(
+                [41.9820757, 2.468363],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_93524f836aa77e1ded5cc5322eefbd0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1d23605cd590fcbb3bc1a67824a816c = $(`<div id="html_a1d23605cd590fcbb3bc1a67824a816c" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Susqueda (Osor)<br><strong>Nivell hm3:</strong> 46.95<br><strong>Percentatge:</strong> 20.1<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_93524f836aa77e1ded5cc5322eefbd0c.setContent(html_a1d23605cd590fcbb3bc1a67824a816c);
+            
+        
+
+        marker_00e86368b06db56c9a1c7f1124004ead.bindPopup(popup_93524f836aa77e1ded5cc5322eefbd0c)
+        ;
+
+        
+    
+    
+            var marker_b49b29d4ab5124585163e610f0533bb7 = L.marker(
+                [41.9828464, 1.5494828],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_7f7342fa35b8f10df6b1c1b90f997316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15e7861d839f2538421b81efd038a881 = $(`<div id="html_15e7861d839f2538421b81efd038a881" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Sant Ponç (Clariana de Cardener)<br><strong>Nivell hm3:</strong> 6.8<br><strong>Percentatge:</strong> 27.9<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_7f7342fa35b8f10df6b1c1b90f997316.setContent(html_15e7861d839f2538421b81efd038a881);
+            
+        
+
+        marker_b49b29d4ab5124585163e610f0533bb7.bindPopup(popup_7f7342fa35b8f10df6b1c1b90f997316)
+        ;
+
+        
+    
+    
+            var marker_6398caeed2e38080b9e16ec35f4367dc = L.marker(
+                [42.118992, 1.5677914],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_3de20f464749da18fbc36dd05f91b8b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_668816697df916827a09bb681966d203 = $(`<div id="html_668816697df916827a09bb681966d203" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de la Llosa del Cavall (Navès)<br><strong>Nivell hm3:</strong> 14.24<br><strong>Percentatge:</strong> 17.8<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_3de20f464749da18fbc36dd05f91b8b2.setContent(html_668816697df916827a09bb681966d203);
+            
+        
+
+        marker_6398caeed2e38080b9e16ec35f4367dc.bindPopup(popup_3de20f464749da18fbc36dd05f91b8b2)
+        ;
+
+        
+    
+    
+            var marker_828d6f6f59d7f8fe3f6e7611a34c87cb = L.marker(
+                [41.254525, 0.9128953],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_c6a0410ded5e997c4d256df1f51b8cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44886095da9d96da306f6fed7813abf2 = $(`<div id="html_44886095da9d96da306f6fed7813abf2" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Siurana (Cornudella de Montsant)<br><strong>Nivell hm3:</strong> 0.44<br><strong>Percentatge:</strong> 3.6<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_c6a0410ded5e997c4d256df1f51b8cb8.setContent(html_44886095da9d96da306f6fed7813abf2);
+            
+        
+
+        marker_828d6f6f59d7f8fe3f6e7611a34c87cb.bindPopup(popup_c6a0410ded5e997c4d256df1f51b8cb8)
+        ;
+
+        
+    
+    
+            var marker_127a631f3c567e433e628c0f4183e210 = L.marker(
+                [41.1376013, 0.9404629],
+                {}
+            ).addTo(map_a70b2ef84a125a80aff00d00a46dfd28);
+        
+    
+        var popup_1c20d7e410149e304821b2df4229e92c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b06d2a5f72045ccb1bac2e6519befae = $(`<div id="html_4b06d2a5f72045ccb1bac2e6519befae" style="width: 100.0%; height: 100.0%;"><strong>Estació:</strong> Embassament de Riudecanyes<br><strong>Nivell hm3:</strong> 0.17<br><strong>Percentatge:</strong> 3.3<br><strong>Dia:</strong> 27/12/2023</div>`)[0];
+                popup_1c20d7e410149e304821b2df4229e92c.setContent(html_4b06d2a5f72045ccb1bac2e6519befae);
+            
+        
+
+        marker_127a631f3c567e433e628c0f4183e210.bindPopup(popup_1c20d7e410149e304821b2df4229e92c)
+        ;
+
+        
+    
+</script>
+</html>
